@@ -1,6 +1,6 @@
 {
     "name" : "mqcms-miniprogram",
-    "appid" : "__UNI__5BF4059",
+    "appid" : "__UNI__8401E67",
     "description" : "登录模板",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -49,9 +49,10 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wx8939e147dd55e3ec",
         "setting" : {
-            "urlCheck" : false
+            "urlCheck" : false,
+            "minified" : true
         },
         "usingComponents" : true
     },
