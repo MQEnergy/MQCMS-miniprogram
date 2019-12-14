@@ -2,7 +2,7 @@ const config = {
     userInfo: {},
     baseUrl: 'http://127.0.0.1:9501/api/v1/',
     wssUrl: 'ws://127.0.0.1:9502/',
-    imgUrl: 'https://img.baibaiguanjia.com',
+    imgUrl: 'http://127.0.0.1:9501/upload/',
     headers: {
         'Content-Type': 'application/x-www-form-urlencoded',
         'Authorization': 'Bearer null'
