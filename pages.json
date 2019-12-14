@@ -1,0 +1,46 @@
+{
+    "pages": [
+        {
+            "path": "pages/home/index",
+            "style": {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/login/index",
+            "style": {
+                "navigationBarTitleText": "登录"
+            }
+        },
+		{
+		    "path": "pages/user/index",
+		    "style": {
+		        "navigationBarTitleText": "我",
+		        "enablePullDownRefresh": true
+		    }
+		}
+    ],
+    "tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#0faeff",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/home/index",
+            "text": "首页",
+            "iconPath": "static/images/navbar/home.png",
+            "selectedIconPath": "static/images/navbar/home-hover.png"
+        }, {
+            "pagePath": "pages/user/index",
+            "text": "我的",
+            "iconPath": "static/images/navbar/user.png",
+            "selectedIconPath": "static/images/navbar/user-hover.png"
+        }]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "backgroundColor": "#fbf9fe"
+    }
+
+}
