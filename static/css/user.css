@@ -1,0 +1,19 @@
+.container {
+  background: #fff;
+}
+.tui-msg-pic {
+  width: 160upx;
+  height: 160upx;
+  border-radius: 50%;
+  display: block;
+  margin-right: 20upx;
+}
+.user-container .tui-list-cell::after {
+  border-bottom: none !important;
+}
+.user-container .tui-list-content::after {
+  border-bottom: none !important;
+}
+.user-container .tui-list-content::before {
+  border-top: none !important;
+}

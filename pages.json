@@ -6,6 +6,13 @@
                 "navigationBarTitleText": "首页"
             }
         },
+		{
+		    "path": "pages/user/index",
+		    "style": {
+		        "navigationBarTitleText": "我",
+		        "enablePullDownRefresh": true
+		    }
+		},
         {
             "path": "pages/home/index",
             "style": {
@@ -18,14 +25,7 @@
             "style": {
                 "navigationBarTitleText": "登录"
             }
-        },
-		{
-		    "path": "pages/user/index",
-		    "style": {
-		        "navigationBarTitleText": "我",
-		        "enablePullDownRefresh": true
-		    }
-		}
+        }
     ],
     "globalStyle": {
         "navigationBarTextStyle": "black",

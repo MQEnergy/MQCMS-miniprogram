@@ -71,7 +71,7 @@
     </view>
     
     <!-- 瀑布流 -->
-    <list />
+    <posts />
   </view>
 </template>
 
@@ -79,18 +79,17 @@
   import tuiTabs from "@/components/tui-tabs/tui-tabs"
   import tuiListView from "@/components/list-view/list-view"
   import tuiListCell from "@/components/list-cell/list-cell"
-  import list from './list'
-  
+  import posts from './posts'
   export default {
     components: {
       tuiTabs,
       tuiListView,
       tuiListCell,
-      list
+      posts
     },
     data() {
       return {
-        name: 'test',
+        name: 'homeIndex',
         currentTab: 1,
         tabs: [
           {
@@ -189,5 +188,8 @@
     box-sizing: border-box;
     font-weight: bold;
     clear: both;
+  }
+  .tag-list-view .tui-list-cell::after {
+    border-bottom: none !important;
   }
 </style>

@@ -15,6 +15,6 @@
 <style>
     /* 引入公共样式 */
     @import './common/app.css';
-    @import './common/thorui.css';
     /*@import './common/icon.css';*/
+    @import './common/thorui.css';
 </style>
